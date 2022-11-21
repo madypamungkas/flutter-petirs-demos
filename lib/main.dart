@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_app2/page/view_login_page.dart';
+import 'package:flutter_app2/page/view_splash_screen.dart';
 import 'package:local_session_timeout/local_session_timeout.dart';
 
 void main() {
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const ViewLoginPage(),
+      home: const ViewSplashScreen(),
     );
   }
 }

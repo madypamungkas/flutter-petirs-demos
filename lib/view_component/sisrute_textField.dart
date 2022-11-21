@@ -34,7 +34,7 @@ class Text24SpBold extends StatelessWidget {
   }
 }
 
-class SisTextField extends StatelessWidget {
+class LibTextField extends StatelessWidget {
   final String? text;
   final double? width;
   final Color? color;
@@ -44,7 +44,7 @@ class SisTextField extends StatelessWidget {
   final TextInputType textInputType;
   final TextEditingController controller;
   final bool obscureText;
-  const SisTextField({
+  const LibTextField({
     Key? key,
     required this.text,
     this.color,

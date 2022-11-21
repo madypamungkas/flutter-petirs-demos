@@ -51,17 +51,18 @@ class _ViewLoginPageState extends State<ViewLoginPage> {
                 "assets/images/logo_kemkes.png",
                 width: MediaQuery.of(context).size.height * 0.2,
               ),
+              Text("TEST"),
               TextTitleSp(text: "Nama Aplikasi", fontSize: 18,color: Colors.cyan,fontWeight: FontWeight.w600,),
               TextTitleSp(text: "Contoh Halaman Login", fontSize: 12,color: Colors.black,fontWeight: FontWeight.w600, textAlign: TextAlign.center,maxLines: 2,),
               SizedBox(height: 20),
-              SisTextField(
+              LibTextField(
                   text: "Email Pengguna",
                   controller: usernameController,
                   icon: Icons.person,
                   isOutlined: true,
                   textInputType: TextInputType.text),
               SizedBox(height: 10),
-              SisTextField(
+              LibTextField(
                   text: "Login",
                   controller: passwordController,
                   obscureText: true,
